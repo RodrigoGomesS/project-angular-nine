@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  min-height: 10vh;
 }
 
 .header a {
@@ -11,6 +12,8 @@
 
 .header .logo {
   max-height: 32px;
+  height: 32px;
+  width: 32px;
 }
 
 .header .title-group {
@@ -19,4 +22,8 @@
 
 .header .title-group i {
   padding-right: 5px;
+}
+
+.header .title-group a {
+  color: #fff;
 }
