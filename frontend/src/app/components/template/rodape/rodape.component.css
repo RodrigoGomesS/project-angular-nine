@@ -1,13 +1,14 @@
-.mat-toolbar img{
-    max-height: 90px;
+.mat-toolbar img {
+  max-height: 90px;
 }
 
-.mat-toolbar span{
-    margin-right: 15px;
+.mat-toolbar span {
+  margin-right: 15px;
 }
 
-.footer{
-  min-height: 10vh;
+.footer {
   display: flex;
   justify-content: end;
+  height: 0px !important;
+  min-height: 100px !important;
 }
